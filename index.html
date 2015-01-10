@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
   <head>
+
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Gop-labs.GitHub.io : gop-labs website">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <script type="text/javascript" src="javascripts/main.js"></script>
+    <meta name="description" content="Gop-Community website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Gop Community</title>
+
+    <!-- STYLESHEETS -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+    <!-- Font-Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
   </head>
 
   <body>
@@ -24,10 +34,11 @@
 
           <h1 id="project_title">Gop-Community</h1>
 
+          <!-- TOP-MENU -->
           <ul id="top-menu">
-            <li><a href="javascript:displayPage('accueil')"><i class="fa fa-home"></i>&nbsp;Accueil</a></li>
-            <li><a href="javascript:displayPage('coding-dojo')"><i class="fa fa-institution"></i>&nbsp;Coding-Dojo</a></li>
-            <li><a href="javascript:displayPage('gop-lab')"><i class="fa fa-flask"></i>&nbsp;Gop-Lab</a></li>
+            <li data-toggle="tooltip" data-placement="bottom" title="Accéder à la page d'accueil"><a href="javascript:displayPage('accueil')"><i class="fa fa-home"></i>&nbsp;Accueil</a></li>
+            <li data-toggle="tooltip" data-placement="bottom" title="Accéder à la page consacrée au coding-dojo"><a href="javascript:displayPage('coding-dojo')"><i class="fa fa-institution"></i>&nbsp;Coding-Dojo</a></li>
+            <li data-toggle="tooltip" data-placement="bottom" title="Accéder au laboratoire gop-lab"><a href="javascript:displayPage('gop-lab')"><i class="fa fa-flask"></i>&nbsp;Gop-Lab</a></li>
           </ul>
 
         </header>
@@ -37,10 +48,10 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
 
-      <!-- ACCEUIL -->
+      <!-- Accueil -->
       <section id="accueil" name="page" class="inner">
         <h3><i class="fa fa-home"></i>&nbsp;Accueil</h3>
-        <p>
+        <p class="well">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
@@ -48,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         </p>
       </section>
 
-      <!-- CODING-DOJO -->
+      <!-- Coding-Dojo -->
       <section id="coding-dojo" name="page" class="inner" style="display:none;">
         <h3><i class="fa fa-institution"></i>&nbsp;Coding-Dojo</h3>
         <p>
@@ -56,7 +67,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
         </p>
       </section>
 
-      <!-- GOP-LAB -->
+      <!-- Gop-Lab -->
       <section id="gop-lab" name="page" class="inner" style="display:none;">
         <h3><i class="fa fa-flask"></i>&nbsp;Gop-Lab</h3>
         <p>
@@ -73,7 +84,19 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
         <p align="right">Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    
+
+
+    <!-- SCRIPTS -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom -->
+    <script type="text/javascript" src="javascripts/main.js"></script>
+
 
   </body>
 </html>
