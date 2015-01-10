@@ -7,10 +7,11 @@ function displayPage(page){
  }
 }
 
-console.log('Main JS file is loaded.');
-
 $(document).ready(function(){
 
     $('[data-toggle="tooltip"]').tooltip();   
 
 });
+
+console.log('Main JS file is loaded.');
+
