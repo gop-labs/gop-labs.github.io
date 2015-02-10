@@ -423,3 +423,10 @@ Small Device Styles
   }
 
 }
+
+/* Custom */
+
+#top-menu li {
+  display: inline;
+  margin-right: 15px;
+}
